@@ -27,6 +27,7 @@
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #nav1 {
@@ -37,6 +38,8 @@
     font-style: normal;
     font-weight: 400;
     height: 50px;
+    color: #010201;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #nav2 {
@@ -47,6 +50,8 @@
     line-height: 50px;
     height: 50px;
     width: 55px;
+    color: #010201;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #nav3 {
@@ -57,6 +62,8 @@
     font-size: 16px;
     line-height: 50px;
     width: 38px;
+    color: #010201;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #nav4 {
@@ -67,8 +74,15 @@
     font-size: 16px;
     line-height: 50px;
     width: 64px;
+    color: #010201;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .body {
     width: 1440px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #010201;
 }
