@@ -1,4 +1,6 @@
 .wrapper {
+    max-width: 1440px;
+    margin: auto;
     height: 134px;
     background-color: #EDF2EC;
 }
@@ -79,10 +81,46 @@
 }
 
 .body {
-    width: 1440px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .nav-link {
     text-decoration: none;
     color: #010201;
+}
+
+.header {
+    position: relative;
+}
+
+.logotext {
+position: absolute;
+width: 58.13px;
+height: 17px;
+left: 132.05px;
+top: 56.04px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+margin: 0;
+}
+
+.vector1 {
+    position: absolute;
+    width: 9.92px;
+    height: 17.28px;
+    left: 111px;
+    top: 54.66px;
+}
+
+.vector2 {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    left: 112px;
+    top: 52px;
 }
