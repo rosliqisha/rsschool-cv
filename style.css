@@ -192,3 +192,58 @@ color: #717171;
 .changedColor {
     color: #499A18;
 }
+
+.leafsImage {
+position: absolute;
+width: 448.8px;
+height: 407.36px;
+left: 109px;
+top: 62px;
+}
+
+.about {
+    height: 666px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.aboutUs {
+    position: absolute;
+width: 605px;
+height: 350px;
+left: 109px;
+top: 161px;
+}
+
+.inikaTopics {
+    margin: 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    width: 463px;
+    color: #499A18;
+}
+
+.aboutUsText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 605px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #636060;
+}
+
+.housePlantImage {
+position: absolute;
+width: 464px;
+height: 479px;
+left: 867px;
+top: 93px;
+}
+
