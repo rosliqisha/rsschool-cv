@@ -247,3 +247,28 @@ left: 867px;
 top: 93px;
 }
 
+.service {
+    height: 1300px;
+    background-color: #EDF2EC;
+    position: relative;
+}
+
+.services_content {
+    position: absolute;
+    width: 1006px;
+    height: 94px;
+    left: 110px;
+    top: 40px;
+}
+
+.services_content_text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    width: 306px;
+    margin-top: 0px;
+    height: 94px;
+}
