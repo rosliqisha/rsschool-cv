@@ -383,3 +383,17 @@ height: 350px;
     width: 330px;
     height: 450px;
 }
+
+.prices {
+    background: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 115px;
+    padding-left: 109px;
+    padding-right: 109px;
+}
+
+.prices_wrapper {
+    width: 1222px;
+    height: 405px;
+    
+}
