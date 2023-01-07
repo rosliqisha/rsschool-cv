@@ -395,5 +395,136 @@ height: 350px;
 .prices_wrapper {
     width: 1222px;
     height: 405px;
-    
+    display: flex;
+    gap: 0px 438px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
+
+.text_call_us {
+    width: 452px;
+    height: 405px;
+}
+
+.prices_table {
+    width: 332px;
+    height: 391.01px;
+}
+
+#text_call_us {
+    width: 452px;
+height: 103px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #000000;
+text-align: right;
+margin: 0;
+}
+
+.prices_button {
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: transparent;
+    display: block;
+    margin-right: 0px;
+    margin-left: 290px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+.prices_button_text {
+    width: 98px;
+height: 26px;
+font-family: 'Inika';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #E06733;
+margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+    margin-right: 34px;
+
+}
+
+.smallLeafs {
+    margin-top: 31px;
+    margin-left: 300px;
+}
+
+.prices_table_text {
+    width: 135px;
+height: 49px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+margin: 0;
+}
+
+#prices_rectangle {
+    width: 332px;
+height: 282.01px;
+border: 1px solid #E3E1D5;
+border-radius: 20px;
+margin-top: 60px;
+}
+
+.buttons_wrapper {
+    width: 250px;
+height: 214.01px;
+margin: 34px 41px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.prices_buttons {
+    width: 250px;
+height: 50px;
+background: #EDF2EC;
+border-radius: 20px;
+display: flex;
+flex-direction: row;
+}
+
+.prices_buttons_text {
+    width: 100px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
+margin-top: 16px;
+margin-bottom: 16px;
+margin-right: 54px;
+margin-left: 40px;
+}
+
+.pricesButton {
+width: 16px;
+height: 16px;
+padding: 0;
+border: none;
+background-color: transparent;
+margin-top: 17px;
+margin-bottom: 17px;
+cursor: pointer;
+}
+
+
