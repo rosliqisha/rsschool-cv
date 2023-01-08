@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/favicon.ico">
 </head>
 <body class="body">
     <header class="header">
@@ -37,7 +38,7 @@
         <div class="introduction">
             <h1 class="intro">We grow <span class="changedColor">plants</span> and give you oxygen</h1>
             <p class="loremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <button class="learnMoreButt"><p class="learnMoreText">LEARN MORE</p></button>
+            <button class="learnMoreButt" id="learnMoreText">LEARN MORE</button>
         </div>
     </section>
         <section class="about" id="about">
@@ -51,48 +52,48 @@
             <div class="services_content">
                 <h2 class="services_content_text">Service and our projects</h2>
             </div>
-            <button class="service_button1"><p class="service_buttons_text">Gardens</p></button>
-            <button class="service_button2"><p class="service_buttons_text">Lawn</p></button>
-            <button class="service_button3"><p class="service_buttons_text">Planting</p></button>
+            <button class="service_button1">Gardens</button>
+            <button class="service_button2">Lawn</button>
+            <button class="service_button3">Planting</button>
             <div class="services_table">
                 <div class="services_table_grids">
                     <img src="/assets/element1.png" alt="tableElement1" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle1">
                     <h3 class="service_items_topics">Garden care</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
                 <div class="services_table_grids">
                     <img src="/assets/element2.png" alt="tableElement2" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle2">
                     <h3 class="service_items_topics">Planting</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
                 <div class="services_table_grids">
                     <img src="/assets/element3.png" alt="tableElement3" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle3">
                     <h3 class="service_items_topics">Lawn care</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
                 <div class="services_table_grids">
                     <img src="/assets/element4.png" alt="tableElement4" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle4">
                     <h3 class="service_items_topics">Planting</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
                 <div class="services_table_grids"> 
                     <img src="/assets/element5.png" alt="tableElement5" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle5">
                     <h3 class="service_items_topics">Garden care</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                 </div>
                 </div>
                 <div class="services_table_grids">
                     <img src="/assets/element6.png" alt="tableElement6" class="service_items_images">
-                    <div id="rectangle">
+                    <div id="rectangle6">
                     <h3 class="service_items_topics">Planting</h3>
                     <p class="service_items_text">Lorem Ipsum has been the industry</p>
                     </div>
@@ -102,8 +103,8 @@
         <section class="prices" id="prices">
             <div class="prices_wrapper">
                 <div class="text_call_us">
-                    <h2 id="text_call_us">Our best <span class="changedColor">gardeners</span> are ready to help you</h2>
-                    <button class="prices_button"><p class="prices_button_text">Contact us</p></button>
+                    <h3 id="text_call_us">Our best <span class="changedColor">gardeners</span> are ready to help you</h3>
+                    <button class="prices_button">Contact us</button>
                     <img src="/assets/leafs_small.png" alt="smallLeafs" class="smallLeafs">
                 </div>
                 <div class="prices_table">
@@ -113,19 +114,19 @@
                         <div class="prices_buttons">
                             <h3 class="prices_buttons_text">Basics</h3>
                             <button class="pricesButton">
-                                <img src="/assets/prices_button.png" alt="pricesButton" width="16px" height="16px">
+                                <img src="/assets/prices_button.png" alt="pricesButton" width="16" height="16">
                             </button>
                         </div>
                         <div class="prices_buttons">
                             <h3 class="prices_buttons_text">Standard</h3>
                             <button class="pricesButton">
-                                <img src="/assets/prices_button.png" alt="pricesButton" width="16px" height="16px">
+                                <img src="/assets/prices_button.png" alt="pricesButton" width="16" height="16">
                             </button>
                         </div>
                         <div class="prices_buttons">
                             <h3 class="prices_buttons_text">Pro care</h3>
                             <button class="pricesButton">
-                                <img src="/assets/prices_button.png" alt="pricesButton" width="16px" height="16px">
+                                <img src="/assets/prices_button.png" alt="pricesButton" width="16" height="16">
                             </button>
                         </div>
                         </div>
@@ -139,7 +140,7 @@
             <div class="contacts_container">
                 <p class="contacts_container_text">City</p>
                 <button class="pricesButton">
-                    <img src="/assets/contacts_button.png" alt="pricesButton" width="16px" height="16px">
+                    <img src="/assets/contacts_button.png" alt="pricesButton" width="16" height="16">
                 </button>
             </div>
         </section>
@@ -147,17 +148,17 @@
     <footer class="footer">
         <div class="footer_content">
             <div class="footer_content_left">
-                <p class="footer_content_text" id="footer_content_text">©</p>
-                <p class="footer_content_text" id="footer_content_text">2022</p>
+                <p class="footer_content_text" id="footer_content_text1">©</p>
+                <p class="footer_content_text" id="footer_content_text2">2022</p>
                 <p class="footer_content_text"><a href="https://github.com/rosliqisha" id="gitHubLink">github</a></p>
             </div>
             <div class="footer_content_center"><a href="https://rs.school/js-stage0/" id="rScopesLink">Rolling Scopes School</a></div>
             <div class="footer_content_right">
                 <ul class="contacts_list">
-                <li><a href="https://www.instagram.com/explore/tags/rollingscopes/"><img src="/assets/inst.svg" alt="instagramIcon" id="contactsIcons" class="contactsIcons"></a></li>
-                <li><a href="https://www.facebook.com/groups/TheRollingScopes/?mibextid=HsNCOg"><img src="/assets/fb.svg" alt="facebookIcon" id="contactsIcons" class="contactsIcons"></a></li>
-                <li><a href="https://twitter.com/rollingscopes"><img src="/assets/twitter.svg" alt="twitterIcon" id="contactsIcons" class="contactsIcons"></a></li>
-                <li><a href="https://www.pinterest.com/pin/the-rolling-scopes-conference-2018--412079434654982058/"><img src="/assets/pinterest.svg" alt="pinterestIcon" id="contactsIcons"></a></li>
+                <li><a href="https://www.instagram.com/explore/tags/rollingscopes/"><img src="/assets/inst.svg" alt="instagramIcon" id="contactsIcons1" class="contactsIcons"></a></li>
+                <li><a href="https://www.facebook.com/groups/TheRollingScopes/?mibextid=HsNCOg"><img src="/assets/fb.svg" alt="facebookIcon" id="contactsIcons2" class="contactsIcons"></a></li>
+                <li><a href="https://twitter.com/rollingscopes"><img src="/assets/twitter.svg" alt="twitterIcon" id="contactsIcons3" class="contactsIcons"></a></li>
+                <li><a href="https://www.pinterest.com/pin/the-rolling-scopes-conference-2018--412079434654982058/"><img src="/assets/pinterest.svg" alt="pinterestIcon" id="contactsIcons4"></a></li>
                 </ul>
             </div>
         </div>
