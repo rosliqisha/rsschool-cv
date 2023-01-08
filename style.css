@@ -656,7 +656,7 @@ padding: 40px 109px;
 
 .footer_content_left {
     display: flex;
-    width: 182px;
+    width: 193px;
 }
 
 .footer_content_text {
@@ -737,6 +737,12 @@ height: 50px;
 }
 
   .nav-link:hover{
+    background-color: #E06733;
+    color: #FFFFFF;
+    transition: .1100s;
+}
+
+.nav-link1:hover{
     background-color: #E06733;
     color: #FFFFFF;
     transition: .1100s;
